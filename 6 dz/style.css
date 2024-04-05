@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url('./с\ др.jpeg') ;
+    background-size: cover;
+    background-position:center;
+    margin-left: 100px;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 70px auto;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 0 0 28px -7px rgba(0,0,0,0.75);
+}
+
+.wrapper-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
